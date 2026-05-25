@@ -5,6 +5,7 @@ from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 from rapidfuzz import fuzz, process
 
 
@@ -171,7 +172,11 @@ def apply_landing_background(image_path: Path) -> None:
     css = f"""
     <style>
     .stApp {{
-        background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        background-image: none;
+    }}
+
+    .stApp.famhx-landing-bg-enabled {{
+        background-image: linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.82)),
                           url("data:{mime};base64,{encoded}");
         background-repeat: no-repeat;
         background-position: center 42%;
@@ -180,6 +185,45 @@ def apply_landing_background(image_path: Path) -> None:
     </style>
     """
     st.markdown(css, unsafe_allow_html=True)
+    components.html(
+        """
+        <script>
+        (function() {
+          const parentDoc = window.parent.document;
+          const app = parentDoc.querySelector('.stApp');
+          if (!app) return;
+
+          function parseRgb(colorValue) {
+            const match = colorValue && colorValue.match(/\\d+/g);
+            if (!match || match.length < 3) return [0, 0, 0];
+            return [parseInt(match[0], 10), parseInt(match[1], 10), parseInt(match[2], 10)];
+          }
+
+          function isDarkModeByTextColor() {
+            const [r, g, b] = parseRgb(window.parent.getComputedStyle(app).color);
+            const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+            return luminance > 180; // light text indicates dark theme
+          }
+
+          function syncLandingBackground() {
+            const darkMode = isDarkModeByTextColor();
+            app.classList.toggle('famhx-landing-bg-enabled', !darkMode);
+          }
+
+          syncLandingBackground();
+
+          const observer = new MutationObserver(syncLandingBackground);
+          observer.observe(parentDoc.documentElement, {
+            attributes: true,
+            subtree: true,
+            attributeFilter: ['class', 'style', 'data-theme']
+          });
+        })();
+        </script>
+        """,
+        height=0,
+        width=0,
+    )
 
 
 def initialize_session_state() -> None:
