@@ -1,0 +1,101 @@
+﻿co.name,count(co)
+"""Seizure""",44
+"""Global developmental delay""",29
+"""Scoliosis""",28
+"""Hypotonia""",27
+"""Intellectual disability""",25
+"""Gastroesophageal reflux""",24
+"""Strabismus""",23
+"""Failure to thrive""",22
+"""Cryptorchidism""",21
+"""Short stature""",21
+"""Anxiety""",20
+"""Microcephaly""",20
+"""Hypertelorism""",18
+"""Sleep disturbance""",18
+"""Hearing impairment""",17
+"""Delayed speech and language development""",17
+"""Growth delay""",17
+"""Depression""",17
+"""Ataxia""",16
+"""Spasticity""",16
+"""Sensorineural hearing impairment""",15
+"""Dysarthria""",15
+"""Umbilical hernia""",15
+"""Feeding difficulties in infancy""",15
+"""Behavioral abnormality""",15
+"""Intellectual disability, severe""",14
+"""Abdominal pain""",14
+"""Developmental regression""",14
+"""Feeding difficulties""",14
+"""Renal insufficiency""",14
+"""Atrial septal defect""",14
+"""Absent speech""",14
+"""Muscle weakness""",14
+"""Fatigue""",14
+"""Dysphagia""",13
+"""Autistic behavior""",13
+"""Nystagmus""",13
+"""Depressed nasal bridge""",13
+"""Flexion contracture""",13
+"""Diarrhea""",13
+"""Aggressive behavior""",13
+"""Inguinal hernia""",13
+"""Pes planus""",12
+"""Hypospadias""",12
+"""Ventriculomegaly""",12
+"""Attention deficit hyperactivity disorder""",12
+"""Micrognathia""",12
+"""Optic atrophy""",12
+"""Gait disturbance""",12
+"""Cataract""",12
+"""Long philtrum""",12
+"""Cerebral cortical atrophy""",11
+"""Epicanthus""",11
+"""Abnormality of the dentition""",11
+"""Upslanted palpebral fissure""",11
+"""Hypothyroidism""",11
+"""Intellectual disability, moderate""",11
+"""Nausea and vomiting""",11
+"""Talipes equinovarus""",11
+"""Coarse facial features""",10
+"""Low-set ears""",10
+"""Intellectual disability, mild""",10
+"""Malabsorption""",10
+"""Peripheral neuropathy""",10
+"""Arrhythmia""",10
+"""Macroglossia""",10
+"""Patent ductus arteriosus""",10
+"""Delayed puberty""",10
+"""Wide mouth""",10
+"""Anteverted nares""",10
+"""Downslanted palpebral fissures""",10
+"""Hydronephrosis""",10
+"""Myopia""",10
+"""Hypertension""",10
+"""Agenesis of corpus callosum""",9
+"""Vesicoureteral reflux""",9
+"""Self-injurious behavior""",9
+"""Wide nasal bridge""",9
+"""Ventricular septal defect""",9
+"""Hallucinations""",9
+"""Abnormal pyramidal sign""",9
+"""Tremor""",9
+"""Macrocephaly""",9
+"""Short philtrum""",9
+"""EEG abnormality""",9
+"""Carious teeth""",9
+"""Vomiting""",9
+"""Aganglionic megacolon""",9
+"""Myalgia""",9
+"""High palate""",9
+"""Visual impairment""",9
+"""Chronic otitis media""",9
+"""Short neck""",9
+"""Hypoplasia of the corpus callosum""",9
+"""Infantile muscular hypotonia""",9
+"""Synophrys""",8
+"""Pectus excavatum""",8
+"""Stereotypy""",8
+"""Microphthalmia""",8
+"""Tetralogy of Fallot""",8

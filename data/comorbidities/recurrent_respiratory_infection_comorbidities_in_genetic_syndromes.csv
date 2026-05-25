@@ -1,0 +1,101 @@
+﻿co.name,count(co)
+"""Seizure""",42
+"""Intellectual disability""",40
+"""Short stature""",38
+"""Global developmental delay""",34
+"""Scoliosis""",31
+"""Hypotonia""",29
+"""Splenomegaly""",27
+"""Failure to thrive""",27
+"""Hearing impairment""",23
+"""Hypertelorism""",22
+"""Hepatomegaly""",22
+"""Depressed nasal bridge""",21
+"""Microcephaly""",21
+"""Micrognathia""",21
+"""Abnormal facial shape""",20
+"""Feeding difficulties""",20
+"""Strabismus""",19
+"""Sensorineural hearing impairment""",19
+"""Wide nasal bridge""",18
+"""Ataxia""",18
+"""Gastroesophageal reflux""",17
+"""Cryptorchidism""",16
+"""Chronic otitis media""",16
+"""Ventriculomegaly""",15
+"""Kyphosis""",15
+"""Epicanthus""",15
+"""Behavioral abnormality""",14
+"""Malabsorption""",14
+"""Cataract""",14
+"""Skin ulcer""",14
+"""Ventricular septal defect""",14
+"""Macrocephaly""",14
+"""Optic atrophy""",14
+"""Inguinal hernia""",13
+"""Short nose""",13
+"""Nystagmus""",13
+"""Low-set ears""",12
+"""Anemia""",12
+"""Hypospadias""",12
+"""Full cheeks""",12
+"""Gait disturbance""",12
+"""Abnormality of the dentition""",12
+"""Patent ductus arteriosus""",12
+"""Recurrent infections""",11
+"""Sleep disturbance""",11
+"""Fever""",11
+"""Neurological speech impairment""",11
+"""Atrial septal defect""",11
+"""Feeding difficulties in infancy""",11
+"""Short neck""",11
+"""Joint hyperflexibility""",11
+"""Joint stiffness""",10
+"""Decreased circulating antibody level""",10
+"""Long face""",10
+"""Elevated hepatic transaminase""",10
+"""Alopecia""",10
+"""Thrombocytopenia""",10
+"""Intellectual disability, severe""",10
+"""High palate""",10
+"""Delayed skeletal maturation""",10
+"""Skin rash""",10
+"""Macrotia""",10
+"""Anteverted nares""",10
+"""Skeletal dysplasia""",10
+"""Hyperreflexia""",10
+"""Frontal bossing""",10
+"""Respiratory insufficiency""",10
+"""Immunodeficiency""",10
+"""Intrauterine growth retardation""",10
+"""Cleft palate""",10
+"""Coarse facial features""",10
+"""Gingival overgrowth""",10
+"""Abnormality of epiphysis morphology""",10
+"""Midface retrusion""",9
+"""Corneal opacity""",9
+"""Growth delay""",9
+"""Diarrhea""",9
+"""Peripheral neuropathy""",9
+"""Dysphagia""",9
+"""Upslanted palpebral fissure""",9
+"""Hyperkeratosis""",9
+"""Sepsis""",9
+"""Spasticity""",9
+"""Protruding ear""",9
+"""Everted lower lip vermilion""",9
+"""Delayed speech and language development""",9
+"""Visual impairment""",9
+"""Glaucoma""",8
+"""Macroglossia""",8
+"""Camptodactyly of finger""",8
+"""Abnormality of movement""",8
+"""EEG abnormality""",8
+"""Dystonia""",8
+"""Abnormality of the metaphysis""",8
+"""Low-set, posteriorly rotated ears""",8
+"""Ptosis""",8
+"""Long philtrum""",8
+"""Joint dislocation""",8
+"""Obstructive sleep apnea""",8
+"""Weight loss""",8
