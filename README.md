@@ -1,6 +1,9 @@
 # FamHx Feud
 
-Local Streamlit teaching-session prototype for a two-team clinical genetics game.
+Local Streamlit teaching-session prototype. This game is designed to help clinicians build an intuition for when a commonly presenting sign or symptom may be part of a larger genetic syndrome.
+
+## Try the game on Streamlit Cloud
+https://famhxfeud.streamlit.app/
 
 ## Run locally (recommended with virtualenv)
 
