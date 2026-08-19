@@ -69,6 +69,11 @@ DATASET_CONFIG = {
         "finding_col": "co.name",
         "score_col": "count(co)",
     },
+    "Hypotonia": {
+        "file": "hypotonia_comorbidities_in_genetic_syndromes.csv",
+        "finding_col": "co.name",
+        "score_col": "count(co)",
+    },
     "Short Stature": {
         "file": "short_stature_comorbidities_in_genetic_syndromes.csv",
         "finding_col": "co.name",
@@ -106,6 +111,7 @@ RARE_SYNDROMES_FILES = {
     "Arrhythmia": "arrhythmia_associated_rare_genetic_syndromes.csv",
     "Seizure": "seizure_associated_rare_genetic_syndromes.csv",
     "Ataxia": "ataxia_associated_rare_genetic_syndromes.csv",
+    "Hypotonia": "hypotonia_associated_rare_genetic_syndromes.csv",
     "Short Stature": "short_stature_associated_rare_genetic_syndromes.csv",
     "Diabetes": "diabetes_associated_rare_genetic_syndromes.csv",
     "Constipation": "constipation_associated_rare_genetic_syndromes.csv",
